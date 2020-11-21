@@ -835,7 +835,7 @@ color:white;
 }
 
 .blog-edu:hover{
-  background-color:#212121;
+  background-color:#04BFB3;
   color:white;
 }
 
@@ -925,7 +925,7 @@ color:white;
   }
 
   .description{
-    background-color:#5f908d;
+    background-color:#345151;
     min-width:330px;
     border-radius:5px 0 0 5px;
   }
@@ -935,7 +935,7 @@ color:white;
 
 @media (max-width: 924px) {
   .blog-container{
-  background-color:#5f908d; 
+  background-color:#345151; 
   height:auto;
   width:80%;
   margin:10em auto;
@@ -957,7 +957,7 @@ color:white;
   border-radius:0 0 5px 5px;
   }
   .description{
-  background-color:#5f908d; 
+  background-color:#345151; 
   width:80%;
   margin:auto;
   color:white;
@@ -1211,8 +1211,8 @@ button a{
   font-weight: 400;
   font-style: normal;
   font-size:1em;
-  color: #d4d4d4;
-  border: 2px solid #d4d4d4;
+  color:#4D6C6A;
+  border: 2px solid #4D6C6A;
   border-radius: 50%;
   width: 23px;
   height: 23px;
@@ -1224,7 +1224,7 @@ button a{
   position: absolute;
   top: -180%;
   right: 10%;
-  background: #5f6c7d;
+  background: #4D6C6A;
   padding: 12px;
   border-radius: 5px;
   display: none;
@@ -1366,7 +1366,7 @@ input.radio{
    flex-direction:row;
  }
 }
-.box-all h3{
+.box-all .h3{
   font-family: arboria, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -1423,7 +1423,7 @@ input.radio{
 }
 
 .wrapper-1:hover, .wrapper-2:hover, .wrapper-3:hover{
-  border:3px solid #04BFB3;
+  border:3px solid #4D6C6A;
 }
 
 .wrapper-1 .box, .wrapper-2 .box, .wrapper-3 .box{
