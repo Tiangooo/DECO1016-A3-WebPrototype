@@ -25,22 +25,97 @@
   <main class="content" id="donate-container">
     <div role="header" class="header">
       <h1>Donate</h1>
-      <p>Small or large, it helps us to continue our critical work building a lifestyle revolution to fight the climate crisis.</p>
     </div>
-  <!--stepper-->
-<ul class="progress-bar">
-  <li><span role="step" class="step-dot">1</span></li>
-  <li><span role="step" class="step-dot">2</span></li>
-  <li><span role="step" class="step-dot">3</span></li>
-</ul>
-
-
-  <!--stepper-->
   <!--try-->
-    <section role="form-container" class="form-container"  id="step1">
+      <section role="form-container" class="form-container"  id="step1">
+        <h2 role="step-title" class="step-title">STEP1 Donation plan:</h2>
+        <p id="plan-p">Small or large, it helps us to continue our critical work building a lifestyle revolution to fight the climate crisis.</p>
+        <form class="donate-form" id="plan">
+          <!---->
+          <div role="box-all" class="box-all">
+
+              <input type="radio" name="select" id="wrapper-1">
+              <input type="radio" name="select" id="wrapper-2">
+              <input type="radio" name="select" id="wrapper-3">
+
+              <div role="wrapper" class="wrapper-1">
+                <h3>One-Off</h3>
+                <div role="box" class="box">
+
+                  <input type="radio" name="select" id="option-1">
+                  <input type="radio" name="select" id="option-2">
+                  <input type="radio" name="select" id="option-3">
+
+                  <label for="option-1" class="option-1">     
+                    <span role="text" class="text">$50 AUD</span>
+                  </label>
+
+                  <label for="option-2" class="option-2">                
+                    <span role="text" class="text">$200 AUD</span>
+                  </label>
+
+                  <label for="option-3" class="option-3">               
+                    <span role="text" class="text">$Other AUD</span>
+                  </label> 
+                </div>
+              </div>
+
+              <div role="wrapper" class="wrapper-2">
+                <h3>Weekly</h3>
+                <div role="box" class="box">
+
+                  <input type="radio" name="select" id="option-4">
+                  <input type="radio" name="select" id="option-5">
+                  <input type="radio" name="select" id="option-6">
+
+                  <label for="option-4" class="option-4">     
+                    <span role="text" class="text">$20 AUD</span>
+                  </label>
+
+                  <label for="option-5" class="option-5">                
+                    <span role="text" class="text">$50 AUD</span>
+                  </label>
+
+                  <label for="option-6" class="option-6">               
+                    <span role="text" class="text">$Other AUD</span>
+                  </label> 
+                </div>
+              </div>
+
+              <div role="wrapper" class="wrapper-3">
+                <h3>Monthly</h3>
+                <div role="box" class="box">
+
+                  <input type="radio" name="select" id="option-7">
+                  <input type="radio" name="select" id="option-8">
+                  <input type="radio" name="select" id="option-9">
+
+                  <label for="option-7" class="option-7">     
+                    <span role="text" class="text">$15 AUD</span>
+                  </label>
+
+                  <label for="option-8" class="option-8">                
+                    <span role="text" class="text">$20 AUD</span>
+                  </label>
+
+                  <label for="option-9" class="option-9">               
+                    <span role="text" class="text">$Other AUD</span>
+                  </label> 
+                </div>
+              </div>
+        </div>
+<!---->
+      </form>
+    <div role="field-btns" class="field-btns">
+        <button class="progress"><a href="index.html">&laquo;  Back</a></button>
+        <button class="progress"><a href="#step2">Next  &raquo;</a></button>
+      </div>
+    </section>  
+
+    <section role="form-container" class="form-container"  id="step2">
+      <h2 class="step-title">STEP2 Contact information:</h2>
+      <p id="contact">Please leave your details and keep in touch. Any queries or issues, please contact us: <a href = "mailto: enquiries@1millionwomen.com.au">enquiries@1millionwomen.com.au</a>.</p>
         <form class="donate-form">
-            <div role="title" class="title">STEP1/Contact information</div>
-            <p>Please leave your contact details and keep in touch:</p>
             <div role="field" class="field">
               <label class="label">Name</label>
               <input type="text">
@@ -49,96 +124,81 @@
               <label class="label">Email</label>
               <input type="email">
             </div>
-            <div role="field-btns" class="field-btns">
-              <button class="progress"><a href="index.html">&laquo;  Back</a></button>
-              <button class="progress"><a href="#step2">Next  &raquo;</a></button>
+            <div role="field" class="field">
+              <label class="label">Leave a message</label>
+              <textarea id="message"></textarea>
             </div>
         </form>
+        <div role="field-btns" class="field-btns">
+          <button class="progress"><a href="#step1">&laquo;  Previous</a></button>
+          <button class="progress"><a href="#step3">Next  &raquo;</a></button>
+        </div>
     </section>
 
-    <section role="form-container" class="form-container"  id="step2">
+
+    <section role="form-container" class="form-container"  id="step3">
+      <h2 class="step-title">STEP3 Payment detail:</h2> 
+      <p class="acc-details">Please choose your preferred payment method and fill in your bank details.</p>
+      <p class="acc-details">If you would prefer to set up an automatic bank transfer, our bank details are:</p>
+        <ul>
+          <li>Account name: 1 Million Women Fund</li>
+          <li>BSB: 313 140</li>
+          <li>Account number: 1212 3053</li>
+        </ul>
       <form class="donate-form">  
 <!--try-->
-        <div role="card-wrapper" class="card-wrapper">
-          <div role="title" class="title">STEP2/Payment detail:</div> 
-          <p>Please fill in the amount of money you prefer to donate:</p>
-          <div role="card-container" class="card-container">
-              <div role="input-form" class="input-form">
-                <div role="section-1" class="section-1">
-                  <div role="items" class="items"> 
-                    <label class="label">Australian dollars</label>
-                    <input type="text" class="input" placeholder="$50">
-                  </div>
-                  <p>Please fill in your payment details:</p>
-                  <div role="items" class="items">
-                    <label class="label">Card number</label>
-                    <input type="text" class="input" maxlength="16" data-mask="0000 0000 0000 0000"placeholder="1234 1234 1234 1234">
-                  </div>
+          <div role="payment-choice">
+            <div role="inline-form" class="inline-form" id="payment-choice">
+              <div role="option" class="option">
+                <input class="radio" type="radio" id="credit-card" name="radio" value="credit-card" checked>
+                <div role="label" class="option-label" >
+                  <label for="credit-card">Credit Card</label>
+                  <img src="images/donate/visa-icon.png" alt="visa"> 
+                  <img src="images/donate/master-icon.png" alt="mastercard">  
                 </div>
-                <div role="section-2" class="section-2">
-                  <div role="items" class="items">
-                    <label class="label">Card holder</label>
-                    <input type="text" class="input" placeholder="Cardholder Name">
-                  </div>
-                </div>
-                <div role="section-3" class="section-3">
-                  <div class="items">
-                    <label class="label">Expire date</label>
-                    <input type="text" class="input" data-mask="00 / 00" placeholder="MM / YY">
-                  </div>
-                  <div role="items" class="items">
-                    <div role="cvc" class="cvc">
-                      <label class="label">CVC code</label>
-                      <div class="tooltip">?
-                        <div role="cvc-img" class="cvc-img"><img src="https://i.imgur.com/r8oXtry.png" alt=""></div>
-                      </div>
-                    </div>
-                    <input type="text" class="input" data-mask="0000" placeholder="0000">
-                  </div>
-                </div>
-              </div> 
-          </div>
-          <div role="field-btns" class="field-btns">
-            <button class="progress"><a href="#step1">&laquo;  Previous</a></button>
-            <button class="progress"><a href="#step3">Next  &raquo;</a></button>
-          </div>
-        </div>
+              </div>
 
-<!--try-->
-      </form>
-    </div>
-    </section>
-    <section role="form-container" class="form-container"  id="step3">
-        <form class="donate-form">
-          <div role="title" class="title">STEP3/Donation plan:</div>
-          <p>Would you like to support us with a weekly or monthly donation plan? Please note if you select monthly and weekly donate plan, the amount of money will be automatically charged from your saved account. If not, please select one-off. Any queries and concerns , please <a href="">contact us</a>.</p>
-          <!---->
-          <div role="title" class="wrapper">
-            <div role="box" class="box">
-              <input type="radio" name="select" id="option-1">
-              <input type="radio" name="select" id="option-2">
-              <input type="radio" name="select" id="option-3">
-              <label for="option-1" class="option-1">
-                <div role="dot" class="dot"></div>
-                <div role="text" class="text">one-off</div>
-              </label>
-              <label for="option-2" class="option-2">
-                <div role="dot" class="dot"></div>
-                <div role="text" class="text">weekly</div>
-              </label>
-              <label for="option-3" class="option-3">
-                <div role="dot" class="dot"></div>
-                <div role="text" class="text">monthly</div>
-              </label>            
+              <div role="option" class="option">
+                <input class="radio" type="radio" id="pay-pal" name="radio" value="pay-pal" onclick="window.location.href ='https://www.gofundraise.com.au/payments/donate/beneficiary/595'">
+                <div role="label" class="option-label">
+                  <label for="pay-pal">PayPal</label>
+                  <img src="images/donate/pp-icon.png" alt="PayPal">
+                </div>
+              </div>
             </div>
           </div>
-<!---->
+              <div role="field" class="field">
+                <label class="label">Card number</label>
+                <input type="text" class="input" maxlength="16" data-mask="0000 0000 0000 0000"placeholder=" 1234 1234 1234 1234">
+              </div>
+              <div role="field" class="field">
+                <label class="label">Card holder</label>
+                <input type="text" class="input" placeholder=" Cardholder Name">
+              </div>
+
+              <div role="inline-form" class="inline-form">
+                <div role="field" class="field">
+                  <label class="label">Expire date</label>
+                  <input type="text" class="input" data-mask=" 00 / 00" placeholder=" MM / YY">
+                </div>
+              
+                <div role="field" class="field">
+                  <div role="cvc" class="cvc">
+                    <label class="label">CVC code</label>
+                    <span class="tooltip">?
+                      <div role="cvc-img" class="cvc-img"><img src="https://i.imgur.com/r8oXtry.png" alt="cvc icon"></div>
+                    </span>
+                  </div>
+                  <input type="text" class="input" data-mask="000" placeholder=" 000"> 
+                </div>
+              </div>
+<!--try-->
+      </form>
       <div role="field-btns" class="field-btns">
         <button class="progress"><a href="#step2">&laquo;  Previous</a></button>
         <button class="progress"><a href="">Proceed  &raquo;</a></button>
       </div>
-      </form>
-    </section>      
+    </section>    
 </main>
 
 
@@ -160,5 +220,9 @@
     </div>
   </footer>
     <script src="script.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
   </body>
 </html>
+
+
+
