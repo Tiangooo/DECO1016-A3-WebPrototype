@@ -680,14 +680,14 @@ color:white;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
   align-content:center;
   padding-bottom:3em;
 }
 
 .header p{
-  margin:10px 20px;
+  margin:10px 20px 20px 20px ;
   padding:0;
   font-family: arboria, sans-serif;
   font-weight: 400;
@@ -780,7 +780,7 @@ color:white;
 
 
 #join-container input:focus, #join-container select:focus{
-  background-color:rgba(0, 0, 0, 0.116);
+  background-color:#E3E3E3;
 }
 
 
@@ -948,13 +948,14 @@ color:white;
   border-radius:5px;
   }
   .photo-container{
-    padding-top:30px;
+    padding:0;
+    order:-1;
   }
 
   .photo-container img{
   width:100%;
   height:auto;
-  border-radius:0 0 5px 5px;
+  border-radius:5px 5px 0 0;
   }
   .description{
   background-color:#345151; 
@@ -1135,7 +1136,7 @@ color:white;
 
 
 .field input:focus, #donate-container textarea:focus{
-  background-color:rgba(0, 0, 0, 0.116);
+  background-color:#E3E3E3;
 }
 
 #contact a{
@@ -1472,6 +1473,16 @@ input.radio{
 #wrapper-2:checked ~ .wrapper-2,
 #wrapper-3:checked ~ .wrapper-3{
   border:3px solid #04BFB3;
+}
+.wrapper-1>label,
+.wrapper-2>label,
+.wrapper-3>label{
+  border-bottom:5px solid white;
+}
+#wrapper-1:checked ~ .wrapper-1>label,
+#wrapper-2:checked ~ .wrapper-2>label,
+#wrapper-3:checked ~ .wrapper-3>label{
+  border-bottom:5px solid #04BFB3;
 }
 
 .wrapper-1 .box label .text, 
