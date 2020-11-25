@@ -5,7 +5,9 @@ body, html {
 html {
   scroll-behavior: smooth;
 }
-
+fieldset{
+  border:0px;
+}
 .h-CTA{
   background-color: #04BFB3; 
   border: 2px solid rgb(4, 191, 179);
