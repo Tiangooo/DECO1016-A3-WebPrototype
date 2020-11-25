@@ -1407,6 +1407,7 @@ input.radio{
   transition-property: all;
   transition-duration:0.3s;
   transition-timing-function: ease;
+  max-width:300px;
 }
 
 @media (max-width:360px){
