@@ -953,8 +953,9 @@ color:white;
   }
 
   .photo-container img{
+  object-fit: cover;
   width:100%;
-  height:auto;
+  height:100px;
   border-radius:5px 5px 0 0;
   }
   .description{
@@ -983,7 +984,16 @@ color:white;
 
 }
 
-
+@media (max-width: 320px) {
+  .description{
+    padding:80px 0;
+  }
+}
+@media (max-width: 280px) {
+  .description{
+    padding:90px 0;
+  }
+}
 /*--another style end--*/
 
 /*////------about-us:end--------/////*/
