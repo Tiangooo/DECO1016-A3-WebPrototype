@@ -896,6 +896,7 @@ color:white;
   align-items:center;
   align-content:center;
   height:300px;
+  max-width:500px ;
 }
 
 .description p{
@@ -1617,6 +1618,7 @@ input.radio{
   align-items:center;
   align-content:center;
   height:300px;
+  max-width:500px ;
 }
 
 .action-description p{
